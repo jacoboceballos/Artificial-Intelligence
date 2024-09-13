@@ -42,12 +42,15 @@ def main():
     fnr = false_negative_rate(TP, FN)
 
     # Print results
-    print("Accuracy: {:.2f}".format(acc))
-    print("Error: {:.2f}".format(err))
-    print("True Positive Rate: {:.2f}".format(tpr))
-    print("True Negative Rate: {:.2f}".format(tnr))
-    print("False Positive Rate: {:.2f}".format(fpr))
-    print("False Negative Rate: {:.2f}".format(fnr))
+    print('----------------------------------')
+    print("Accuracy: {:.3f}".format(acc))
+    print("Error: {:.3f}".format(err))
+    print("True Positive Rate: {:.3f}".format(tpr))
+    print("True Negative Rate: {:.3f}".format(tnr))
+    print("False Positive Rate: {:.3f}".format(fpr))
+    print("False Negative Rate: {:.3f}".format(fnr))
+    print('----------------------------------')
+
 
 if __name__ == "__main__":
     main()
