@@ -1,0 +1,72 @@
+
+
+==================================================
+Results for Group A
+==================================================
+
+Confusion Matrix:
+           Pred Small  Pred Big
+Small Car         1.0       0.0
+Big Car           0.0       1.0
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Small Car       1.00      1.00      1.00      2000
+     Big Car       1.00      1.00      1.00      2000
+
+    accuracy                           1.00      4000
+   macro avg       1.00      1.00      1.00      4000
+weighted avg       1.00      1.00      1.00      4000
+
+Feature Importance:
+Cost (USD): 9.1403
+Weight (lbs): 8.2655
+
+
+==================================================
+Results for Group B
+==================================================
+
+Confusion Matrix:
+           Pred Small  Pred Big
+Small Car      0.9890    0.0110
+Big Car        0.0125    0.9875
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Small Car       0.99      0.99      0.99      2000
+     Big Car       0.99      0.99      0.99      2000
+
+    accuracy                           0.99      4000
+   macro avg       0.99      0.99      0.99      4000
+weighted avg       0.99      0.99      0.99      4000
+
+Feature Importance:
+Cost (USD): 12.7266
+Weight (lbs): 13.4395
+
+
+==================================================
+Results for Group C
+==================================================
+
+Confusion Matrix:
+           Pred Small  Pred Big
+Small Car      0.7260    0.2740
+Big Car        0.2725    0.7275
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   Small Car       0.73      0.73      0.73      2000
+     Big Car       0.73      0.73      0.73      2000
+
+    accuracy                           0.73      4000
+   macro avg       0.73      0.73      0.73      4000
+weighted avg       0.73      0.73      0.73      4000
+
+Feature Importance:
+Cost (USD): 7.2626
+Weight (lbs): 4.3367
