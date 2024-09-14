@@ -28,10 +28,10 @@ def false_negative_rate(TP, FN):
 
 def main():
     # Read and convert input to integers
-    TP = int(input("Enter True Positive: "))
-    TN = int(input("Enter True Negative: "))
-    FP = int(input("Enter False Positive: "))
-    FN = int(input("Enter False Negative: "))
+    TP = float(input("Enter True Positive: "))
+    TN = float(input("Enter True Negative: "))
+    FP = float(input("Enter False Positive: "))
+    FN = float(input("Enter False Negative: "))
 
     # Calculate metrics
     acc = accuracy(TP, TN, FP, FN)
