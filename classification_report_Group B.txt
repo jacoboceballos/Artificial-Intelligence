@@ -1,0 +1,10 @@
+Classification Report for Group B
+
+              precision    recall  f1-score   support
+
+   Small Car       0.99      0.99      0.99      2000
+     Big Car       0.99      0.99      0.99      2000
+
+    accuracy                           0.99      4000
+   macro avg       0.99      0.99      0.99      4000
+weighted avg       0.99      0.99      0.99      4000
